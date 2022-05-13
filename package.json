@@ -1,0 +1,21 @@
+{
+  "private": true,
+  "scripts": {
+    "postinstall": "dotnet tool restore",
+    "start": "dotnet fable watch src --run webpack-dev-server",
+    "build": "dotnet fable src && webpack"
+  },
+  "devDependencies": {
+    "webpack": "^5.72.0",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^4.8.1"
+  },
+  "dependencies": {
+    "bulma": "^0.9.3",
+    "bulma-quickview": "^2.0.0",
+    "core-js": "^3.22.4",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "version": "1.0.0"
+}
