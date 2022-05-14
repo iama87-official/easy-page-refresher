@@ -1,4 +1,5 @@
 # Fable generated files
+!/bundle.js
 .fable
 *.fs.js
 bundle.js
